@@ -46,6 +46,3 @@ if st.button("Recommend"):
     for idx, movie in enumerate(recommendations, 1):
         st.write(f"{idx}. {movie}")
 
-# Footer
-st.markdown("---")
-st.markdown("👨‍💻 Developed by **Your Name** | 🚀 Powered by Streamlit")
